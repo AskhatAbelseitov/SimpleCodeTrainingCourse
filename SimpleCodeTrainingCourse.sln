@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2 - Adding & multiplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3 - Converter", "Task 3 - Converter\Task 3 - Converter.csproj", "{72EDC7C9-8BDC-48D1-B678-472B35D97D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working Task", "Working Task\Working Task.csproj", "{76964371-3981-4740-AB42-B5F66CD5D851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4 - Even  & odd numbers", "Task 4 - Even  & odd numbers\Task 4 - Even  & odd numbers.csproj", "{C745A17F-A266-4A2A-BA77-B1921F3AF060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{72EDC7C9-8BDC-48D1-B678-472B35D97D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72EDC7C9-8BDC-48D1-B678-472B35D97D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72EDC7C9-8BDC-48D1-B678-472B35D97D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76964371-3981-4740-AB42-B5F66CD5D851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76964371-3981-4740-AB42-B5F66CD5D851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76964371-3981-4740-AB42-B5F66CD5D851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76964371-3981-4740-AB42-B5F66CD5D851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C745A17F-A266-4A2A-BA77-B1921F3AF060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C745A17F-A266-4A2A-BA77-B1921F3AF060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C745A17F-A266-4A2A-BA77-B1921F3AF060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C745A17F-A266-4A2A-BA77-B1921F3AF060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
