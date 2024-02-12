@@ -8,7 +8,7 @@ namespace Task_3
         {
             double dollarRate = 442.34;
             double euroRate = 482.56;
-            double nationalCurrency;
+            double nationalCurrency, dollarCurrency, euroCurrency;
             
             Console.WriteLine("Enter your sum in the national currency");
 
@@ -16,11 +16,7 @@ namespace Task_3
 
             Console.WriteLine($"Your sum is {nationalCurrency} tenge");
 
-            double dollarCurrency  = nationalCurrency / dollarRate;
-
-            double euroCurrency = nationalCurrency / euroRate;
-
-            Console.WriteLine($"Your exchange course is: {dollarCurrency} dollars or {euroCurrency} euro");
+            Console.WriteLine($"Your exchange course is: {nationalCurrency / dollarRate} dollars or {nationalCurrency / euroRate} euro");
         }
     }
 }
