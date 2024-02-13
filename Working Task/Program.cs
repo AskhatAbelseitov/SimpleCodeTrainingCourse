@@ -10,15 +10,18 @@ namespace Working_Task
     {
         static void Main(string[] args)
         {
-            int fanSpeed = 3000;
+            int a = int.Parse(Console.ReadLine());  
 
-            bool isHighTemperature = false;
-
-            bool hasNoColling = fanSpeed <= 10;
-
-            if (hasNoColling || isHighTemperature)
+            switch (a)
             {
-                Console.WriteLine("Processor is broken!");
+                case 0:
+                case 1: 
+                case 3: 
+                case 4:
+                Console.WriteLine("Your entered from 1 to 4");
+                        break;
+                default: Console.WriteLine("Your entered wrong number");
+                        break;
             }
         }
     }

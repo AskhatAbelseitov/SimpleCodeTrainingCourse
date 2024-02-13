@@ -45,7 +45,11 @@ namespace Task_5
                 }
                 else if (action == "/")
                 {
-                    if (secondValue == 0)
+                    if (secondValue == 0 & firstValue == 0)
+                    {
+                        Console.WriteLine($"Division result is 0");
+                    }
+                    else if (secondValue == 0)
                     {
                         Console.WriteLine("Division on zero is frobidden");
                     }

@@ -46,7 +46,11 @@ namespace Task_6
                         break;
 
                     case "/":
-                        if (secondValue == 0)
+                        if (secondValue == 0 & firstValue == 0)
+                        {
+                            Console.WriteLine($"Division result is 0");
+                        }
+                        else if (secondValue == 0)
                         {
                             Console.WriteLine("Division on zero is frobidden");
                         }
