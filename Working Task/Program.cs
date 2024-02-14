@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Working_Task
@@ -10,19 +11,13 @@ namespace Working_Task
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());  
-
-            switch (a)
+            int count = 5;
+            do
             {
-                case 0:
-                case 1: 
-                case 3: 
-                case 4:
-                Console.WriteLine("Your entered from 1 to 4");
-                        break;
-                default: Console.WriteLine("Your entered wrong number");
-                        break;
+                count++;
+                Console.WriteLine(count);
             }
+            while (count < 5);
         }
     }
 }

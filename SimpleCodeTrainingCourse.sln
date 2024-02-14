@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5 - Calculator (if-els
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6 - Calculator (switch)", "Task 6 - Calculator (switch)\Task 6 - Calculator (switch).csproj", "{72CAB4EF-0EC6-4B69-BE4F-F8A1ADA7DEDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7 - Even & odd numbers counter", "Task 7 - Even & odd numbers counter\Task 7 - Even & odd numbers counter.csproj", "{EE7726EC-ECFB-482A-A28D-4EB172A8254F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{72CAB4EF-0EC6-4B69-BE4F-F8A1ADA7DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CAB4EF-0EC6-4B69-BE4F-F8A1ADA7DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CAB4EF-0EC6-4B69-BE4F-F8A1ADA7DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7726EC-ECFB-482A-A28D-4EB172A8254F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7726EC-ECFB-482A-A28D-4EB172A8254F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7726EC-ECFB-482A-A28D-4EB172A8254F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7726EC-ECFB-482A-A28D-4EB172A8254F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
