@@ -56,7 +56,7 @@ namespace Working_Task
 
             for (int i = 0; i <= 10; i++)
             {
-                for (int j = 0; i > j; j++)
+                for (int j = 0; j < i; j++)
                 {
                     Console.Write(" ");
                 }
