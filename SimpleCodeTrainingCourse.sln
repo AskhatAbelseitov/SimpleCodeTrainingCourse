@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7 - Even & odd numbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 8 - Triangles writing", "Task 8 - Triangles writing\Task 8 - Triangles writing.csproj", "{81A027A1-97E1-4347-B773-0556C8C06EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAsk 8 - Triangles writing alternative aproach", "TAsk 8 - Triangles writing alternative aproach\TAsk 8 - Triangles writing alternative aproach.csproj", "{0B62DB33-A796-4F7B-9B31-8DF5B046D56D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 8 - Triangles writing alternative aproach", "TAsk 8 - Triangles writing alternative aproach\Task 8 - Triangles writing alternative aproach.csproj", "{0B62DB33-A796-4F7B-9B31-8DF5B046D56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 9 - Array", "Task 9 - Array\Task 9 - Array.csproj", "{DD19F42F-EE37-4E4E-B3FB-B890E942CBFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0B62DB33-A796-4F7B-9B31-8DF5B046D56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B62DB33-A796-4F7B-9B31-8DF5B046D56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B62DB33-A796-4F7B-9B31-8DF5B046D56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD19F42F-EE37-4E4E-B3FB-B890E942CBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD19F42F-EE37-4E4E-B3FB-B890E942CBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD19F42F-EE37-4E4E-B3FB-B890E942CBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD19F42F-EE37-4E4E-B3FB-B890E942CBFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

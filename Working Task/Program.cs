@@ -10,64 +10,17 @@ namespace Working_Task
     internal class Program
     {
         static void Main(string[] args)
-        { 
-            for (int i = 0; i < 10; i++)
+        {
+            int[] myArray = { 1, 10, 18, 190 };
+
+            for (int i = 0; i < myArray.Length; i++)
             {
-                for (int j = 0; j <= i; j++)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
+                Console.WriteLine(myArray[i]);               
             }
-            Console.WriteLine();
-            Console.WriteLine();
+
+            Console.WriteLine(myArray.Length);
 
 
-
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 10; j > i; j--)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-
-
-
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 10; j > i; j--)
-                {
-                    Console.Write(" ");
-                }
-                for (int j = 0; j <= i; j++)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-
-
-
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 0; i > j; j++)
-                {
-                    Console.Write(" ");
-                }
-                for (int j = 10; j > i; j--)
-                {
-                    Console.Write("#");
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
-            Console.WriteLine();
         }
     }
 }
