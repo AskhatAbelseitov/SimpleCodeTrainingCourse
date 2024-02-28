@@ -42,9 +42,8 @@ namespace Task_9
                 Console.WriteLine(myArray[i]);
             }
             Console.WriteLine();
-           
 
-                        
+                                    
             int evenNumbersSum = 0;
             for (int i = 0; i < myArray.Length; i++)
             {
@@ -53,6 +52,12 @@ namespace Task_9
                     evenNumbersSum = evenNumbersSum + myArray[i];
             }
             Console.WriteLine($"Even numbers sum is: {evenNumbersSum}");
+
+
+            //Второй вариант суммы всех четных чисел через методы           
+            Console.WriteLine(myArray.Where(x => x % 2 == 0).Sum());
+
+
 
 
             //Второй вариант поиска наименьшего числа через цикл
@@ -68,10 +73,13 @@ namespace Task_9
             Console.WriteLine($"Minimum value in array is: {minValue}");
             Console.WriteLine();
 
+            
 
             Console.WriteLine("\nThe least number in array is: " + Enumerable.Min(myArray));
-            Console.WriteLine("\nThe maximum number in array is: " + Enumerable.Max(myArray));
-            Console.WriteLine("\nThe average number in array is: " + Enumerable.Average(myArray));
+
+            //Третий вариант поиска наименьшего числа через цикл
+            Console.WriteLine(myArray.Min());
+            
 
         }
     }
